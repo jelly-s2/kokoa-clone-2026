@@ -1,7 +1,5 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap');
-
-
 body {
     display: flex;
     justify-content: center;
@@ -20,8 +18,8 @@ body {
     background-color: white;
     display: flex;
     flex-direction: column;
-    gap: 40px
-    padding: 40px
+    gap: 40px;
+    padding: 40px;
 }
 .status-bar__column {
     position: relative;
@@ -141,5 +139,5 @@ body {
 
 .song__info > span:last-child {
     font-size: 15px;
-    color: rgba(0, 0, 0, 0.7)
+    color: rgba(0, 0, 0, 0.7);
 }
